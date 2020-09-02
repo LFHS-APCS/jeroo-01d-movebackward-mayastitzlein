@@ -16,9 +16,10 @@ public class Main implements Directions {
     /**
      * Put your main Jeroo code here.
      */
+    
     public static void runJerooCode() {
-       Jeroo kim = new Jeroo(3,4);
-       kim.moveBackward();
-    }
-
+       Jeroo kim = new Jeroo(3,4, SOUTH, 36);
+          kim.moveBackward();
+    } // ARONSON missing bracket here
+    // all open brackets need a corresponding close bracket
 }
